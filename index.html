@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聊天室</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="chat-container">
+        <div id="messages"></div>
+
+        <div id="tools">
+            <input type="file" id="image-upload" accept="image/*" style="display:none;">
+            <button id="image-btn">📷</button>
+
+            <button id="export-btn">💾 匯出</button>
+
+            <input type="file" id="import-file" style="display:none;">
+            <button id="import-btn">📂 匯入</button>
+        </div>
+
+        <textarea id="input" placeholder="輸入訊息..." rows="2"></textarea>
+        <button id="send">送出</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
